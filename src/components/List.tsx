@@ -31,7 +31,7 @@ const UsersList = () => {
     return null;
   }
 
-  if (loading) {
+  if (loading && page === 1) {
     return <CircularProgress />;
   }
 
